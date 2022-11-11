@@ -3,42 +3,59 @@
     <script src="myscripts.js"></script>
     <head>
         <script src="https://kit.fontawesome.com/395591ac65.js" crossorigin="anonymous"></script>
-        <div id="header">
-            <ul class="lista">
-                <li><a href="#"><i class="fa-solid fa-envelope"></i>Contact</a></li>
-                <li><a href="#"><i class="fa-solid fa-gear"></i>Setari</a></li>
-              </ul>
+        <div id="header"><p>
+            Compania De Apa Buzau
+        </p>
            </div>
     </head>
     <body>
        <div id="content">
                     <div class="form">
                         <div class="title">Programare</div>
-                        <div class="input-container ic1">
-                          <input id="firstname" class="input" type="text" placeholder=" " />
-                          <div class="cut"></div>
-                          <label for="firstname" class="placeholder">Nume si Prenume</label>
-                        </div>
-                        <div class="input-container ic2">
-                          <input id="lastname" class="input" type="text" placeholder=" " />
-                          <div class="cut"></div>
-                          <label for="lastname" class="placeholder">Numar de telefon</label>
-                        </div>
-                        <div class="input-container ic2">
-                          <input id="email" class="input" type="text" placeholder=" " />
-                          <div class="cut cut-short"></div>
-                          <label for="email" class="placeholder">Email
-                        </div>
-                        <div class="input-container ic2">
-                            <input class="input" type="datetime-local" id="start" name="trip-start"
-                                   value="2018-07-22"
-                                   min="2022-01-01" max="2023-12-31">
+                        <div class="containers">
+                          <div class="container1">
+                            <div class="input-container ic2">
+                              <input id="lastname" class="input" type="text" placeholder=" " />
+                              <label for="lastname" class="placeholder">Nume</label>
+                            </div>
+                            <div class="input-container ic2">
+                              <input id="email" class="input" type="text" placeholder=" " />
+                              <label for="email" class="placeholder">Email
+                            </div>
+                            <div class="input-container ic2">
+                              <input class="input" type="datetime-local" id="start" name="trip-start"
+                                    min="2022-01-01T00:00" max="2023-12-31T:23:59">
+                            </div>
                           </div>
-                        <button type="text" class="submit">Trimite</button>
+                          <div class="container2">
+                            <div class="input-container ic2">
+                              <input id="firstname" class="input" type="text" placeholder=" " />
+                              <label for="firstname" class="placeholder">Prenume</label>
+                            </div>
+                            <div class="input-container ic2">
+                              <input id="lastname" class="input" type="text" placeholder=" " />
+                              <label for="lastname" class="placeholder">Numar de telefon</label>
+                            </div>
+                            <button type="text" class="submit"><span>Trimite</span></button>
+                          </div>
+                        </div>
                       </div>
         </div>       
         <div id="div2">
+            
         </div>
     </div>
+    <div id="header">
+        <ul>
+           <li> <i class="fa-regular fa-envelope"></i></li>     
+           <li>ApeBuzau@gmail.com </li>
+           <li> <a><i class="fa-solid fa-phone"></i></a> </li> 
+           <li> (+40238 528 145)</li> 
+           <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li> 
+           <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
+           <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+        </ul>
+        </div>
+    </div >
     </body>
 </html>
