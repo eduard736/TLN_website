@@ -47,22 +47,7 @@ body {
 #sageata{
   padding-left: 5%;
 }
-.column {
-  float: left;
-  width: 50%;
-  height: 100%;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-#coloana2{
-  background-color: rgb(232, 31, 188);
-  background-image: url('img.jpg');
-  background-repeat: no-repeat;
-}
 .form {
   background-color: #15172b;
   box-sizing: border-box;
@@ -70,7 +55,9 @@ body {
   padding: 20px;
   width: 100%;
 }
-
+.form *{
+  padding-left: 30%;
+}
 .title {
   color: #eee;
   font-family: sans-serif;
@@ -82,7 +69,7 @@ body {
 .input-container {
   height: 50px;
   position: relative;
-  width: 100%;
+  width: 40%;
 }
 
 .ic1 {
@@ -125,7 +112,7 @@ body {
 .placeholder {
   color: #65657b;
   font-family: sans-serif;
-  left: 20px;
+  left: 150px;
   line-height: 14px;
   pointer-events: none;
   position: absolute;
@@ -140,7 +127,7 @@ body {
 }
 
 .submit {
-  background-color: #08d;
+  background-color: #0072CE;
   border-radius: 12px;
   border: 0;
   box-sizing: border-box;
@@ -154,8 +141,8 @@ body {
   width: 100%;
 
 }
-.submit:active {
-  background-color: #06b;
+.submit:hover{
+  background-color: #3990d6a3;
 }
 
 
