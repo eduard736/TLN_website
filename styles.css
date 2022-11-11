@@ -57,13 +57,22 @@ body {
   display: table;
   clear: both;
 }
-.row div:first-child{
+#coloana1{
   background-color: aqua;
+  height: 60%;
 }
-.row div:nth-child(2){
+#coloana2{
   background-color: rgb(232, 31, 188);
   background-image: url('img.jpg');
   background-repeat: no-repeat;
 
+}
+#titluformular{
+  background-color: rgb(228, 17, 38);
+  height: 30%;
+}
+#formular{
+  background-color: rgb(23, 181, 20);
+  height: 70%;
 }
 
