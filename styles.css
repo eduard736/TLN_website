@@ -1,148 +1,165 @@
 
 body {
-    margin: 0;
-    font-family: "Quicksand", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffffff;
-  }
-#header{
-  position: sticky;
-  top: 0px;
-}
-
-#header ul {
-  background-color: #0072CE;
-}
-.lista {
-  list-style-type: none;
   margin: 0;
-  padding: 0;
-  text-align: right;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #15172b;
 }
-.lista li {
-  display: inline-block;
-  min-width: 5em;
-  margin: 0 0.5em;
-  text-align: center;
-  padding-left: 1%;
-  padding-right: 1%;
-}
-  .lista a {
-  text-decoration: none;
-  display: block;
-  font-family:Arial;
-  position: relative;
-  color: rgb(255, 255, 255);
-  padding:.5em 0;
-  font-family: 'Open Sans';
-}
-#header li:hover{
-  background-color: #3990d6a3;
-}
-#header li a i{
-  padding-right: 7%;
-  }
-#sageata{
-  padding-left: 5%;
+#header{
+background-color: #0072CE;
+height: 6%;
+font-size: 150%;
+text-align: center;
+top: 0px;
 }
 
 .form {
-  background-color: #15172b;
-  box-sizing: border-box;
-  height: 100%;
-  padding: 20px;
-  width: 100%;
+background-color: #1c1e34;
+box-sizing: border-box;
+height: 400px;
+padding: 20px;
+width: 60%;
+margin: auto;
+margin-top: 20px;
+border-radius: 30px;
+
 }
-.form *{
-  padding-left: 30%;
-}
+
 .title {
-  color: #eee;
-  font-family: sans-serif;
-  font-size: 36px;
-  font-weight: 600;
-  margin-top: 30px;
+color: #eee;
+font-family: sans-serif;
+font-size: 36px;
+font-weight: 600;
+margin-left: 2.5%;
 }
 
 .input-container {
-  height: 50px;
-  position: relative;
-  width: 40%;
+height: 50px;
+position: relative;
+
 }
 
-.ic1 {
-  margin-top: 40px;
+.containers{
+align-self: center;
+float: left;
+clear: none;
+width: 95%;
+margin: 0 2.5%;
 }
 
 .ic2 {
-  margin-top: 30px;
+margin-top: 30px;
+width: 100%;
+}
+
+.containers div{
+float: left;
+clear: none;
+
+}
+
+.container1{
+width: 47.5%;
+height: 300px;
+}
+
+.container2{
+margin-left: 5%;
+width: 47.5%;
+height: 240px;
 }
 
 .input {
-  background-color: #303245;
-  border-radius: 12px;
-  border: 0;
-  box-sizing: border-box;
-  color: #eee;
-  font-size: 18px;
-  height: 100%;
-  outline: 0;
-  padding: 4px 20px 0;
-  width: 100%;
+background-color: #303245;
+border-radius: 12px;
+border: 0;
+box-sizing: border-box;
+color: #eee;
+font-size: 18px;
+height: 100%;
+outline: 0;
+padding: 4px 20px 0;
+width: 100%;
+
 }
 
 .cut {
-  background-color: #15172b;
-  border-radius: 10px;
-  height: 20px;
-  left: 20px;
-  position: absolute;
-  top: -20px;
-  transform: translateY(0);
-  transition: transform 200ms;
-  width: 76px;
+background-color: #15172b;
+border-radius: 10px;
+height: 20px;
+left: 20px;
+position: absolute;
+top: -20px;
+transform: translateY(0);
+transition: transform 200ms;
+width: 76px;
 }
 
 .cut-short {
-  width: 50px;
+width: 50px;
 }
 
 .placeholder {
-  color: #65657b;
-  font-family: sans-serif;
-  left: 150px;
-  line-height: 14px;
-  pointer-events: none;
-  position: absolute;
-  transform-origin: 0 50%;
-  transition: transform 200ms, color 200ms;
-  top: 20px;
+color: #65657b;
+font-family: sans-serif;
+left: 5%;
+line-height: 14px;
+pointer-events: none;
+position: absolute;
+transform-origin: 0 50%;
+transition: transform 200ms, color 200ms;
+top: 20px;
 }
 
 .input:focus ~ .placeholder,
 .input:not(:placeholder-shown) ~ .placeholder {
-  visibility: hidden;
+visibility: hidden;
 }
 
 .submit {
-  background-color: #0072CE;
-  border-radius: 12px;
-  border: 0;
-  box-sizing: border-box;
-  color: #eee;
-  cursor: pointer;
-  font-size: 18px;
-  height: 50px;
-  margin-top: 38px;
-  outline: 0;
-  text-align: center;
-  width: 100%;
-
+background-color: #0072CE;
+border-radius: 12px;
+border: 0;
+align-self: center;
+box-sizing: border-box;
+color: #eee;
+cursor: pointer;
+font-size: 18px;
+height: 50px;
+margin-top: 30px;
+outline: 0;
+left: 5%;
+text-align: left;
+width: 50%;
 }
+.submit span{
+margin-left: 5%;
+}
+
 .submit:hover{
-  background-color: #3990d6a3;
+background-color: #3990d6a3;
 }
 
-
+#div2{
+height: 100%;
+}
+#header a{
+  color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+li:nth-child(even){
+padding-right: 2%;
+}
+li:nth-child(5){
+  padding-right: 2%;
+  }
