@@ -6,7 +6,7 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 1.5;
 color: #ffffff;
-background-color: #15172b;
+background-color: #181a2e;
 position:relative;
 }
 #header {
@@ -37,7 +37,6 @@ padding: 20px;
 width: 60%;
 margin: auto;
 margin-top: 80px;
-
 }
 
 .title {
@@ -223,7 +222,7 @@ padding-right: 2%;
 }
 .lista li {
   display: inline-block;
-  min-width: 14%;
+  width: 10%;
   text-align: center;
 }
 .lista a {
@@ -237,6 +236,7 @@ padding-right: 2%;
 }
 #header li:hover{
   background-color: #3990d6a3;
+  border-radius: 20px;
 }
 #header li a i{
   padding-right: 4%;

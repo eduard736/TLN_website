@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <title>Cartofel.ro:Portal</title>
+    <link rel="stylesheet" href="portal_styles.css">
+    <head>
+        <script src="https://kit.fontawesome.com/395591ac65.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="form" id="login">
+            <img src="img.png">
+            <div class="container1">
+                <div class="input-container ic2">
+                  <input id="User" class="input" type="text" placeholder="User" />
+                </div>
+                <div class="input-container ic2">
+                  <input id="parola" class="input" type="password" placeholder="Parola" />
+                </div>
+            </div> 
+            <button id="button" type="button" class="submit" onclick="if (document.getElementById('parola').value == 'parola'){ 
+                document.getElementById('login').style.display='none'; document.getElementById('hidden').classList.toggle('show');}
+
+                else {  alert('Invalid Password!'); password.setSelectionRange(0, password.value.length);   } "><span>Trimite</span></button>   
+        </div>
+        <img src="img.jpg" id="hidden">
+    </body> 
+</html>
