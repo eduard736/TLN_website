@@ -83,9 +83,3 @@ margin-left: 40%;
 .submit:hover {
 background-color: #3990d6a3;
 }
-#hidden {
-    display: none;
-}
-#hidden.show{
-    display: block;
-}
