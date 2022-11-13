@@ -79,3 +79,7 @@ body {
     width: 100%;
     text-align: center;
 }
+.form .input-container i {
+    font-size: 150%;
+    margin-right: 1%;
+}
