@@ -6,9 +6,10 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #ffffff;
-    background-color: #181a2e;
+    background-color: #121427;
     position:relative;
     }
+
 .form {
     background-color: #1c1e34;
     border-radius: 30px;
@@ -25,11 +26,6 @@ body {
     position: relative;
     z-index: 0;
     text-align: center;
-    }
-
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
-visibility: hidden;
 }
 
 .input {
@@ -43,21 +39,21 @@ visibility: hidden;
     outline: 0;
     width: 50%;
     padding: 0% 2%;
-    }
+}
+
 .containers {
-        align-self: center;
-        width: 95%;
-        margin: 0 2.5%;
-        }
-        
+    align-self: center;
+    width: 95%;
+    margin: 0 2.5%;
+}
+
 .ic2 {
-    margin-top: 30px;
+    margin-top: 5%;
     width: 100%;
 }
 .form img{
-    width: 10%;
-    height: 10%;
-    padding-left: 40%;
+    width: 13%;
+    height: 13%;
 }
 
 .submit {
@@ -72,14 +68,14 @@ visibility: hidden;
     height: 50px;
     margin-top: 30px;
     outline: 0;
-    text-align: left;
+    text-align: center;
     width: 30%;
-    margin-left: 35%;
-    }    
-.submit span {
-margin-left: 40%;
-}
-        
+} 
+
 .submit:hover {
-background-color: #3990d6a3;
+    background-color: #3990d6a3;
+}
+.casuta {
+    width: 100%;
+    text-align: center;
 }

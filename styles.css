@@ -6,7 +6,7 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 1.5;
 color: #ffffff;
-background-color: #181a2e;
+background-color: #121427;
 position:relative;
 }
 #header {
@@ -105,27 +105,9 @@ transition: transform 200ms;
 width: 76px;
 }
 
-.placeholder {
-color: #65657b;
-font-family: sans-serif;
-left: 5%;
-font-size: 18px;
-line-height: 14px;
-pointer-events: none;
-position: absolute;
-transform-origin: 0 50%;
-transition: transform 200ms, color 200ms;
-top: 20px;
-}
-
 #start{
   margin: auto;
   text-align: left;
-}
-
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
-visibility: hidden;
 }
 
 .submit {
@@ -143,6 +125,7 @@ outline: 0;
 text-align: left;
 width: 50%;
 }
+
 .submit span {
 margin-left: 10%;
 }
