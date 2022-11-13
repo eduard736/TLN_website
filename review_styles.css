@@ -1,12 +1,12 @@
 body {
-margin: 0;
-font-family: "Quicksand", sans-serif;
-font-size: 1rem;
-font-weight: 400;
-line-height: 1.5;
-color: #ffffff;
-background-color: #15172b;
-height: 100%;
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #15172b;
+  height: 100%;
 }
 
 #header {
@@ -22,18 +22,17 @@ height: 100%;
   background-size: 7.2%;
   position: relative;
   z-index: 1;
-  }
+}
     
 
 .form {
-background-color: #1c1e34;
-box-sizing: border-box;
-
-padding: 20px;
-width: 70%;
-margin: auto;
-margin-top: 20px;
-border-radius: 30px;
+  background-color: #1c1e34;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 30px;
 }
 
 textarea {
@@ -41,64 +40,61 @@ textarea {
 }
 
 .title {
-color: #eee;
-font-family: sans-serif;
-font-size: 36px;
-font-weight: 500;
-
-float: left;
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  float: left;
 }
 
 .input-container {
-height: 20px;
-position: relative;
+  height: 20px;
+  position: relative;
 }
     
 .containers {
-align-self: center;
-float: left;
-clear: none;
-width: 95%;
-margin: 0 2.5%;
+  align-self: center;
+  float: left;
+  clear: none;
+  width: 95%;
+  margin: 0 2.5%;
 }
 
 .input {
-background-color: #303245;
-border-radius: 12px;
-border: 0;
-box-sizing: border-box;
-color: #eee;
-font-size: 18px;
-height: 50%;
-outline: 0;
-padding: 1.5% 2.5%;
-width: 100%;
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 50%;
+  outline: 0;
+  padding: 1.5% 2.5%;
+  width: 100%;
 }
 
 .submit {
-background-color: #0072CE;
-border-radius: 12px;
-border: 0;
-align-self: center;
-box-sizing: border-box;
-color: #eee;
-cursor: pointer;
-height: 7%;
-margin-top: 3%;
-outline: 0;
-text-align: left;
-width: 20%;
-margin-left: 2.5%;
-text-align: center;
+  background-color: #0072CE;
+  border-radius: 12px;
+  border: 0;
+  align-self: center;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  height: 7%;
+  margin-top: 3%;
+  outline: 0;
+  width: 20%;
+  margin-left: 2.5%;
+  text-align: center;
 }
 
 .submit span {
-font-size: 200%;
-
+  font-size: 200%;
 }
     
 .submit:hover {
-background-color: #3990d6a3;
+  background-color: #3990d6a3;
 }
 
 #footer a {
@@ -128,53 +124,51 @@ li {
   margin: auto;
 }
 
-li:nth-child(even) {
-padding-right: 2%;
+li:nth-child(even) , li:nth-child(5) {
+  padding-right: 2%;
 }
 
-li:nth-child(5) {
-padding-right: 2%;
-}
-.rate{
+.rate {
   float: left;
   padding-left: 7%;
-
 }
-
 
 .rate:not(:checked) > input {
-position:absolute;
-top:-9999px;
+  position:absolute;
+  top:-9999px;
 }
-  .rate:not(:checked) > label {
-    float: right;
-    width:1em;
-    height: 54.01px;
-    overflow:hidden;
-    white-space:nowrap;
-    cursor:pointer;
-    font-size:36px;
-    color:#ccc;
-  }
-  .rate:not(:checked) > label:before {
-    content: '★ ';
-  }
-  .rate > input:checked ~ label {
-    color: #ffc700;    
-  }
-  .rate:not(:checked) > label:hover,
-  .rate:not(:checked) > label:hover ~ label {
-    color: #deb217;  
-  }
-  .rate > input:checked + label:hover,
-  .rate > input:checked + label:hover ~ label,
-  .rate > input:checked ~ label:hover,
-  .rate > input:checked ~ label:hover ~ label,
-  .rate > label:hover ~ input:checked ~ label {
-    color: #c59b08;
-  }
+
+.rate:not(:checked) > label {
+  float: right;
+  width:1em;
+  height: 54.01px;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:36px;
+  color:#ccc;
+}
+
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #deb217;  
+}
+
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: #c59b08;
+}
+
 #review {
-  float: left;
   width: 100%;
   margin: 0% 2.5%;
 }

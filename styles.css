@@ -9,6 +9,7 @@ color: #ffffff;
 background-color: #121427;
 position:relative;
 }
+
 #header {
 background-color: #0072CE;
 top: 0;
@@ -23,6 +24,7 @@ background-size: 7.2%;
 position: fixed;
 z-index: 1;
 }
+
 #logo{
   height: 100%;
   width: 10%;
@@ -161,11 +163,7 @@ height: 100%;
   margin: auto;
 }
 
-#footer li:nth-child(even) {
-padding-right: 2%;
-}
-
-#footer li:nth-child(5) {
+#footer li:nth-child(even) , li:nth-child(5) {
 padding-right: 2%;
 }
 
