@@ -17,13 +17,13 @@
       <!-- Slideshow -->
       <div class="slideshow" id="slideshow">
         <div class="mySlides fade">
-          <img src="assets/images/img1.jpg" style="width:100%">
+          <div id="img1"></div>
         </div>
         <div class="mySlides fade">
-          <img src="assets/images/img2.jpg" style="width:100%">
+          <div id="img2"></div>
         </div>
         <div class="mySlides fade">
-          <img src="assets/images/img3.jpg" style="width:100%">
+          <div id="img3"></div>
         </div>
         <!-- Butoanele next/prev -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -37,21 +37,21 @@
         <div class="containers">
           <div class="container1">
             <div class="input-container ic2" >
-              <input id="lastname" class="input" type="text" placeholder="Nume" />
+              <input id="lastname" class="input" type="text" placeholder="Nume" required />
             </div>
             <div class="input-container ic2">
-              <input id="email" class="input" type="text" placeholder="Email" />
+              <input id="email" class="input" type="text" placeholder="Email" required />
             </div>
             <div class="input-container ic2">
-              <input class="input" type="datetime-local" id="start" name="trip-start" min="2022-01-01T00:00" max="2023-12-31T:23:59">
+              <input class="input" type="datetime-local" id="start" name="trip-start" min="2022-01-01T00:00" max="2023-12-31T:23:59" required>
             </div>
           </div>
           <div class="container2">
             <div class="input-container ic2">
-              <input id="firstname" class="input" type="text" placeholder="Prenume" />
+              <input id="firstname" class="input" type="text" placeholder="Prenume" required />
             </div>
             <div class="input-container ic2">
-              <input id="lastname" class="input" type="text" placeholder="Numar de telefon" />
+              <input id="lastname" class="input" type="text" placeholder="Numar de telefon" required />
             </div>
             <button type="text" class="submit">Trimite</button>
           </div>
