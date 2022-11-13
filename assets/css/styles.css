@@ -24,6 +24,7 @@ background-size: 7.2%;
 position: fixed;
 z-index: 1;
 }
+
 .lista {
   list-style-type: none;
   margin: 0;
@@ -52,6 +53,76 @@ z-index: 1;
 
 #header li a i{
   padding-right: 4%;
+}
+
+.slideshow {
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(182, 181, 214, 0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.slideshow img{
+  width: 100%;
+  height: 88%;
+  margin: auto;
+  margin-top: 2.5%;
+}
+
+#img1 {
+  background-image: url(../images/img1.jpg);
+}
+#img2 {
+  background-image: url(../images/img2.jpg);
+}
+#img3 {
+  background-image: url(../images/img3.jpg);
+}
+
+#img1 , #img2 , #img3
+{
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .form {
@@ -144,31 +215,6 @@ width: 50%;
 background-color: #3990d6a3;
 }
 
-#footer a {
-  color:white;
-}
-
-#footer{
-  margin: auto;
-  background-color: #0072CE;
-  font-size: 125%;
-  text-align: center;
-}
-
-#footer ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0.5% 0%;
-}
-
-#footer li {
-  display: inline;
-}
-
-#footer li:nth-child(even) , li:nth-child(5) {
-padding-right: 2%;
-}
-
 #location {
   height: 70%;
   width: 55%;
@@ -196,64 +242,28 @@ padding-right: 2%;
   margin: auto;
 }
 
-#div2{
-  height: 100%;
+#footer a {
+  color:white;
 }
 
-
-/* Slideshow */
-.slideshow {
-  width: 100%;
-  position: relative;
+#footer{
   margin: auto;
+  background-color: #0072CE;
+  font-size: 125%;
+  text-align: center;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5% 0%;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+#footer li {
+  display: inline;
 }
 
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+#footer li:nth-child(even) , li:nth-child(5) {
+padding-right: 2%;
 }
 
-/* On hover, add a background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(182, 181, 214, 0.8);
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-.slideshow img{
-  width: 100%;
-  height: 88%;
-  margin: auto;
-  margin-top: 2.5%;
-}

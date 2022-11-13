@@ -35,97 +35,12 @@ body {
   border-radius: 30px;
 }
 
-textarea {
-  resize: none;
-}
-
 .title {
   color: #eee;
   font-family: sans-serif;
   font-size: 36px;
   font-weight: 500;
   float: left;
-}
-
-.input-container {
-  height: 20px;
-  position: relative;
-}
-    
-.containers {
-  align-self: center;
-  float: left;
-  clear: none;
-  width: 95%;
-  margin: 0 2.5%;
-}
-
-.input {
-  background-color: #303245;
-  border-radius: 12px;
-  border: 0;
-  box-sizing: border-box;
-  color: #eee;
-  font-size: 18px;
-  height: 50%;
-  outline: 0;
-  padding: 1.5% 2.5%;
-  width: 100%;
-}
-
-.submit {
-  background-color: #0072CE;
-  border-radius: 12px;
-  border: 0;
-  align-self: center;
-  box-sizing: border-box;
-  color: #eee;
-  cursor: pointer;
-  height: 7%;
-  margin-top: 3%;
-  outline: 0;
-  width: 20%;
-  margin-left: 2.5%;
-  text-align: center;
-}
-
-.submit span {
-  font-size: 200%;
-}
-    
-.submit:hover {
-  background-color: #3990d6a3;
-}
-
-#footer a {
-  color:white;
-}
-
-#footer {
-  margin: auto;
-  background-color: #0072CE;
-  font-size: 125%;
-  text-align: center;
-  margin-top: auto;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0.5% 0%;
-}
-
-li {
-  display: inline;
-  margin: auto;
-}
-
-li:nth-child(even) , li:nth-child(5) {
-  padding-right: 2%;
 }
 
 .rate {
@@ -171,4 +86,73 @@ li:nth-child(even) , li:nth-child(5) {
 #review {
   width: 100%;
   margin: 0% 2.5%;
+}
+
+.containers {
+  width: 95%;
+  margin: 0 2.5%;
+}
+
+.input {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 50%;
+  outline: 0;
+  padding: 1.5% 2.5%;
+  width: 100%;
+  resize: none;
+}
+
+.submit {
+  background-color: #0072CE;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  height: 7%;
+  margin-top: 3%;
+  outline: 0;
+  width: 20%;
+  margin-left: 2.5%;
+  text-align: center;
+  font-size: 160%;
+}
+
+.submit:hover {
+  background-color: #3990d6a3;
+}
+
+#footer a {
+  color:white;
+}
+
+#footer {
+  margin: auto;
+  background-color: #0072CE;
+  font-size: 125%;
+  text-align: center;
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5% 0%;
+}
+
+li {
+  display: inline;
+}
+
+li:nth-child(even) , li:nth-child(5) {
+  padding-right: 2%;
 }
