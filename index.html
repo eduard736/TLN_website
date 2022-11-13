@@ -1,13 +1,12 @@
-
 <html>
   <title>Cartofel.ro</title>
   <link rel="stylesheet" href="assets\css\styles.css">
-  <script src="assets\js\myscripts.js"></script>
   <head>
+    <!-- Script Iconite -->
     <script src="https://kit.fontawesome.com/395591ac65.js" crossorigin="anonymous"></script>
       <div id="header" >
         <ul class="lista">
-          <li><a href="#content"><i class="fa-solid fa-house"></i></i>Home</a></li>
+          <li><a href="#slideshow"><i class="fa-solid fa-house"></i></i>Home</a></li>
           <li><a href="#"><i class="fa-solid fa-envelope"></i>Programare</a></li>
           <li><a href="#location"><i class="fa-regular fa-compass"></i></i>Locatie</a></li>
         </ul>
@@ -15,11 +14,29 @@
   </head>
   <body>
     <div id="content">
+      <!-- Slideshow -->
+      <div class="slideshow" id="slideshow">
+        <div class="mySlides fade">
+          <img src="assets/images/img1.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/images/img2.jpg" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+          <img src="assets/images/img3.jpg" style="width:100%">
+        </div>
+        <!-- Butoanele next/prev -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <!-- Javascript -->
+      <script src="assets\js\myscripts.js"></script>
+      <!-- Formular Programare -->
       <div class="form">
         <div class="title">Programare</div>
         <div class="containers">
           <div class="container1">
-            <div class="input-container ic2">
+            <div class="input-container ic2" >
               <input id="lastname" class="input" type="text" placeholder="Nume" />
             </div>
             <div class="input-container ic2">
@@ -36,10 +53,11 @@
             <div class="input-container ic2">
               <input id="lastname" class="input" type="text" placeholder="Numar de telefon" />
             </div>
-            <button type="text" class="submit"><span>Trimite</span></button>
+            <button type="text" class="submit">Trimite</button>
           </div>
         </div>
       </div>
+      <!-- Harta-->
       <div id="location">
         <div id="adress">
           <p>Strada Mihai Viteazul 68
@@ -51,16 +69,13 @@
         
       </div>
     </div>
-    <div id="div2">
-
-    </div>       
-
+    <!-- Footer -->
     <div id="footer">
         <ul>
           <li><i class="fa-regular fa-envelope"></i></li>     
-          <li>ApeBuzau@gmail.com </li>
+          <li>office@tln.ro</li>
           <li> <a><i class="fa-solid fa-phone"></i></a> </li> 
-          <li> (+0238 528 145)</li> 
+          <li>(+40368 40 50 55)</li> 
           <li> <a href="#"><i class="fa-brands fa-facebook"></i></a></li> 
           <li> <a href="#"><i class="fa-brands fa-twitter"></i></a></li> 
           <li> <a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
