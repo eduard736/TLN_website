@@ -14,11 +14,11 @@ body {
     background-color: #1c1e34;
     border-radius: 30px;
     box-sizing: border-box;
-    height: 400px;
-    padding: 20px;
+    height: 100%;
     width: 60%;
     margin: auto;
     margin-top: 80px;
+   padding-bottom: 40px;
 }
 
 .input-container {
@@ -47,24 +47,32 @@ body {
 }
 
 .ic2 {
-    margin-top: 5%;
+    margin-top: 40px;
     width: 100%;
 }
-.casuta {
+.top {
     width: 100%;
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
     text-align: center;
+    background-color: #0072CE;
+    padding: 5px 0;
 }
 
 .form img{
     width: 13%;
     height: 13%;
+    margin: auto;
 }
 
 .form .input-container i {
     font-size: 150%;
     margin-right: 1%;
 }
-
+#button{
+    margin-top: 40px;
+    display: block;
+}
 .submit {
     background-color: #0072CE;
     border-radius: 12px;
@@ -75,10 +83,11 @@ body {
     cursor: pointer;
     font-size: 18px;
     height: 50px;
-    margin-top: 30px;
     outline: 0;
     text-align: center;
     width: 30%;
+    margin: auto;
+
 } 
 
 .submit:hover {
