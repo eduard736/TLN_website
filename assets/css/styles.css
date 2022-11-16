@@ -1,5 +1,4 @@
 
-
 html {
 	scroll-behavior: smooth;
   scroll-padding-top: 88px;
@@ -203,40 +202,11 @@ width: 100%;
 padding: 0% 5%;
 }
 
-.cut {
-  background-color: #15172b;
-  border-radius: 10px;
-  height: 20px;
-  left: 20px;
-  position: absolute;
-  top: -20px;
-  transform: translateY(0);
-  transition: transform 200ms;
-  width: 76px;
-  }
-  
-  .placeholder {
-  color: #65657b;
-  font-family: sans-serif;
-  left: 5%;
-  font-size: 18px;
-  line-height: 14px;
-  pointer-events: none;
-  position: absolute;
-  transform-origin: 0 50%;
-  transition: transform 200ms, color 200ms;
-  top: 20px;
-  }
-  
-
 #start{
   margin: auto;
   text-align: left;
 }
-.input:focus ~ .placeholder,
-.input:not(:placeholder-shown) ~ .placeholder {
-visibility: hidden;
-}
+
 
 .submit {
 background-color: #0072CE;
@@ -313,4 +283,3 @@ background-color: #3990d6a3;
 #footer li:nth-child(even) , li:nth-child(5) {
 padding-right: 2%;
 }
-
